@@ -28,6 +28,7 @@ function Footer() {
                   <div className="icon-phone text-lg"></div>
                   <span>+91 9975494379</span>
                   <span>+91 9975547432</span>
+                  <span>+91 8421403094</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <div className="icon-mail text-lg"></div>
