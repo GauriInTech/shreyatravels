@@ -8,21 +8,21 @@ function AboutContent() {
           <div className="max-w-4xl mx-auto">
             <div className="bg-white rounded-lg shadow-lg p-8 mb-12">
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                Shreya Tours & Travels is dedicated to providing exceptional pilgrimage experiences to sacred Buddhist sites across India. With years of expertise in spiritual tourism, we understand the significance of these holy places.
+               Established in 2018, Shreya Tours & Travels is your trusted travel partner based in Shop No. 4, Sanidhya Apartment, Subhash Tekdi, Ulhasnagar-4.
               </p>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
                 Our team ensures every aspect of your tour is carefully planned. From comfortable transportation to quality accommodations near pilgrimage sites, we take care of all the details so you can focus on your spiritual journey.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                We specialize in tours to Bodh Gaya, Sarnath, Kushinagar, Lumbini, and other significant Buddhist destinations.
-              </p>
+                We specialize in organizing comfortable and memorable trips to historical, cultural, and spiritual destinations
+               </p>
             </div>
 
             <div className="bg-[var(--accent-color)] bg-opacity-10 rounded-lg p-8 text-center">
               <h2 className="text-2xl font-bold mb-4 text-[var(--secondary-color)]">Our Commitment</h2>
               <p className="text-gray-700 leading-relaxed">
-                We are committed to excellence and authentic experiences, making us a trusted name in pilgrimage tourism.
-              </p>
+                We aim to provide safe, reliable, and affordable travel experiences for individuals, families, and groups. Whether it’s a pilgrimage, educational tour, or leisure trip — we ensure smooth journeys and lasting memories.
+             </p>
             </div>
           </div>
         </div>
