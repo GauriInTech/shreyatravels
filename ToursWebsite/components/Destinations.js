@@ -56,8 +56,7 @@ function Destinations() {
                   <h3 className="text-lg font-bold mb-2">{name}</h3>
                   <p className="text-gray-600 text-sm mb-4 line-clamp-3">{desc}</p>
                   <div className="flex justify-between items-center">
-                    <a href="#" className="nav-link font-medium">View details</a>
-                    <span className="text-[var(--primary-color)] font-semibold">Explore</span>
+                    
                   </div>
                 </div>
               </article>
