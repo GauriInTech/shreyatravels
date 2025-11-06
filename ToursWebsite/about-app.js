@@ -1,15 +1,17 @@
+import React from "react";
+
 class ErrorBoundary extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { hasError: false, error: null };
+    this.state = { hasError: false };
   }
 
   static getDerivedStateFromError(error) {
-    return { hasError: true, error };
+    return { hasError: true };
   }
 
   componentDidCatch(error, errorInfo) {
-    console.error('ErrorBoundary caught an error:', error, errorInfo.componentStack);
+    console.error("Error caught by ErrorBoundary:", error, errorInfo.componentStack);
   }
 
   render() {
@@ -30,21 +32,16 @@ class ErrorBoundary extends React.Component {
 }
 
 function AboutApp() {
-  try {
-    return (
-      <div className="min-h-screen bg-gray-50" data-name="about-app" data-file="about-app.js">
-        <Header />
-        <AboutContent />
-        <Footer />
-      </div>
-    );
-  } catch (error) {
-    console.error('AboutApp component error:', error);
-    return null;
-  }
+  return (
+    <div className="min-h-screen bg-gray-50" data-name="about-app" data-file="about-app.js">
+      <Header />
+      <AboutContent />
+      <Footer />
+    </div>
+  );
 }
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <ErrorBoundary>
     <AboutApp />
